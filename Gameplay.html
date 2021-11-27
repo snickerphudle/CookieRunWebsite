@@ -48,6 +48,7 @@
             <a style= "text-decoration:none;" href="Gameplay.html">Gameplay</a>
 			&nbsp; &nbsp; &nbsp; &nbsp; 
 			<a style= "text-decoration:none;" href="lands.html">Lands</a>
+			<br><br>
 			
 		</div>
 		
@@ -60,25 +61,32 @@
 			<p>Each land will have numerous themed obstacles that obtrude the Cookie's path. These obstacles include: tall obstacles, long obstacles, gaps, or simple traps on the ground. Depending on the obstacle, the Cookie will have to jump over it, or slide under it.</p>
 			
             <h1>Simple Jump</h1>
-            <!--<iframe width="640" height="360" src="https://www.youtube.com/embed/sX-_N9w-2LU?start=90&end=98&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>-->
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/pyVvZ3U0aos?start=76&end=78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<video width="640" height ="360" controls>
+				<source src="jump.mp4" type="video/mp4" />
+			</video>
 			
             <br>
             <h1>Double Jump</h1>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/sX-_N9w-2LU?start=117&end=122&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <video width="640" height ="360" controls>
+				<source src="double_jump.mp4" type="video/mp4" />
+			</video>
             
             <br>
             <h1>Slide</h1>
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/sX-_N9w-2LU?start=143&end=148&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <video width="640" height ="360" controls>
+				<source src="slide.mp4" type="video/mp4" />
+			</video>
 		</div>
         <div id="leftcolumngameplay">
             <h1>Health</h1>
             <p>Each cookie has a health bar that gradually depletes as they run.
             Avoiding obstacles will ensure that they run for as far possible without
             falling too quickly. If a Cookie hits an obstacle, their energy will
-            deplete by 20-40. Cookies can recover energy by collecting small/large
-            potions. Once Cookies run out of energy, they will fall and get a specific
-            score, based on how many jellies they collected.</p>
+            deplete by 20-40 energy points. Cookies can recover energy by collecting 
+			small/large potions. Some cookies also have special abilities which
+			restore energy. Once Cookies run out of energy, they will fall and get a 
+			specific score, based on how many jellies were collected.</p>
 				
             <div class="column3">
                 <h4>Energy Bar:</h4>
@@ -94,20 +102,21 @@
 				<h4>Large Potion:</h4>
 				<img src="largepotion.png"/>
             </div>
-                
-            <br><br><br><br><br><br>
+
+        	<br><br><br><br><br><br>
+
             <h1>Trophy Race</h1>
             <p>In order to gain trophies, players must enter a Trophy Race, where Cookies are entered with a pet to run. During a trophy race, a Cookie races with 9 other cookies that have entered. After around 8 minutes, the race will end and each individual score earned by a Cookie will be submitted. The Cookie with the most points will receive trophies and a golden chest.
-			Upon gaining a certain amount of trophies, Cookies can advance to different lands and compete with more experienced Cookies.</p>
+			Upon gaining a certain amount of trophies, Cookies can advance to different lands and compete.</p>
             
             <div class="column2">
-				<h4>Trophy Chest:</h4>
+				<h4>Trophy Chest</h4>
 				<img src="trophychest.png" width="30%"/>
             </div>
 				
             <div class="column2">
-				<h4>Trophy:</h4>
-				<img src="trophy.png" width="20%"/>
+				<h4>Trophy</h4>
+				<img src="trophy.png" width="23%"/>
             </div>
 				
         </div>
@@ -124,10 +133,13 @@
 					<h4>Star Jelly:</h4>
 					<img src="starjelly.gif"/>
 				</div>
-                
-                <h4>Bonustime Land:</h4>
+				
+				<br><br><br><br><br><br>
+
+                <h1>Bonustime Land:</h1>
 				<img src="bonustimeland.png" width="87%"/>
 			</div>
+
         <div id="gameplaybottom">
             <h1>Jelly Types/Powerups</h1>
             <p>Jellies are the things that Cookies collect while running to increase their score. Jellies will constantly be found when the Cookie is running. Simply having the Cookie run into the jelly will collect it. If the Cookie collects a powerup jelly, a special event will occur.</p>
@@ -223,7 +235,7 @@
 				    <td>Turns all obstacles into Coin Jellies</td>
                 </tr>
 				<tr>
-                    <td>Bouns Time Jelly</td>
+                    <td>Bonus Time Jelly</td>
 				    <td><img src="bonustimejelly.png"</td>
 				    <td>0</td>
 				    <td>Bonustime instantly activates</td>
@@ -231,7 +243,7 @@
             </table>
         </div>
 		<div id="footergameplay">
-            <br>
+			<br>
             <a style="text-decoration:none;" href="sources.html">Sources</a>
         </div>
 	

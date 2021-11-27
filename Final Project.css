@@ -13,7 +13,7 @@
 		}
 #main{
 	width: 100%;
-	height: 585px;
+	height: 885px;
 	background-color: moccasin;
 	float: left;
     text-align: center;
@@ -132,7 +132,7 @@
     }
 #footer{
     height: 100px;
-    background-color: #B7AFA3;
+    background-color: tan;
     font-family: Courier;
 	font-size: 30px;
 	font-style: normal;
@@ -144,7 +144,7 @@
     }
 #leftcolumngameplay{
 	width: 50%;
-	height: 1000px;
+	height: 1075px;
 	background-color: moccasin;
 	float: left;
     text-align:center;
@@ -157,7 +157,7 @@
 }
 #rightcolumngameplay{
 	width: 50%;
-	height: 1000px;
+	height: 1075px;
 	background-color: moccasin;
 	float: right;
     text-align:center;
@@ -169,26 +169,26 @@
 	line-height: 26.4px;
 }
 #footergameplay{
-    height: 4000px;
-    background-color: #B7AFA3;
+    height: 4150px;
+    background-color:tan;
     font-family: Courier;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 26.4px;
+	line-height: 100.4px;
     text-align: center;
 	float: bottom;
     }
 #footerlands{
     height: 6500px;
-    background-color: #B7AFA3;
+    background-color: tan;
     font-family: Courier;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 26.4px;
+	line-height: 100px;
     text-align: center;
 	float: bottom;
     }
