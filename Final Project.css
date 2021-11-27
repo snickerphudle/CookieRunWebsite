@@ -1,0 +1,194 @@
+#navbar{
+		background-color: tan;
+		width: 100%;
+		margin-right: 25%;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		font-size: 28px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 26.4px;
+		float: inherit;
+		border-bottom: 1px solid black;
+		}
+#main{
+	width: 100%;
+	height: 585px;
+	background-color: moccasin;
+	float: left;
+    text-align: center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    float: inherit;
+    border-bottom: 1px solid black;
+	}
+#maincookie{
+	width: 100%;
+	height: inherit;
+	background-color: moccasin;
+	float: left;
+    text-align: center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    float: inherit;
+    border-bottom: 1px solid black;
+	}
+#treasure{
+	width: 100%;
+	height: inherit;
+	background-color: moccasin;
+	float: left;
+    text-align: center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    float: inherit;
+    border-bottom: 1px solid black;
+	}
+#gameplaybottom{
+	width: 100%;
+	height: inherit;
+	background-color: moccasin;
+	float: left;
+    text-align: center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	float: right;
+	border-bottom: 1px solid black
+	}
+#gameplaytop{
+	width: 100%;
+	height: inherit;
+	background-color: moccasin;
+	float: left;
+    text-align: center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	float: right;
+	}
+#landsintro{
+	width: 100%;
+	height: inherit;
+	background-color: moccasin;
+    text-align:center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    float: inherit;
+	}
+#landsleft{
+	width: 50%;
+	height: 6400px;
+	background-color: moccasin;
+	float: left;
+    text-align:center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    border-bottom: 1px solid black;
+	}
+#landsright{
+	width: 50%;
+	height: 6400px;
+	background-color: moccasin;
+	float: right;
+    text-align:center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    border-bottom: 1px solid black
+	}
+#html, body {
+    margin:0;
+    padding:0;
+    }
+#footer{
+    height: 100px;
+    background-color: #B7AFA3;
+    font-family: Courier;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    text-align: center;
+	float: bottom;
+    }
+#leftcolumngameplay{
+	width: 50%;
+	height: 1000px;
+	background-color: moccasin;
+	float: left;
+    text-align:center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+#rightcolumngameplay{
+	width: 50%;
+	height: 1000px;
+	background-color: moccasin;
+	float: right;
+    text-align:center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+#footergameplay{
+    height: 4000px;
+    background-color: #B7AFA3;
+    font-family: Courier;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    text-align: center;
+	float: bottom;
+    }
+#footerlands{
+    height: 6500px;
+    background-color: #B7AFA3;
+    font-family: Courier;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    text-align: center;
+	float: bottom;
+    }
